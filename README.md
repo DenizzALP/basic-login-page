@@ -54,6 +54,3 @@ This is a simple login and signup web application built using **Node.js**, **Exp
 - Passwords are securely hashed using bcrypt.
 - All registered users are listed on the home page.
 
-## License
-
-MIT
