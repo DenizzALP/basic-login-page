@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    
+    <h2>Users List</h2>
+    <ul>
+        <!-- Kullanıcıları listele -->
+        <% users.forEach(function(user) { %>
+            <li><%= user.name %> - <%= user.password %></li> <!-- Gerekirse diğer bilgileri de ekleyebilirsin -->
+        <% }) %>
+    </ul>
+    
+</body>
+</html>
